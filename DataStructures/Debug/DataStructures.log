@@ -1,4 +1,0 @@
-﻿  Main1.cpp
-C:\Users\Cyber_User\Documents\magshimim\semesterC\valus\Ekronot-Ex01\DataStructures\Main1.cpp(17,1): warning C4005: 'PURPLE': macro redefinition
-C:\Users\Cyber_User\Documents\magshimim\semesterC\valus\Ekronot-Ex01\DataStructures\Main1.cpp(11): message : see previous definition of 'PURPLE'
-  DataStructures.vcxproj -> C:\Users\Cyber_User\Documents\magshimim\semesterC\valus\Ekronot-Ex01\DataStructures\Debug\DataStructures.exe
