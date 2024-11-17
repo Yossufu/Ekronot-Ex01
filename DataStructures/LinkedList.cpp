@@ -12,18 +12,18 @@ void AddNode(Node* head, unsigned int newValue)
     head->next->next = NULL;
 }
 
-void RemoveNode(Node* head)
+unsigned int RemoveNode(Node* head)
 {
     if (head == NULL || head->next == NULL)
     {
-        delete head;
-        head = NULL;
-        return;
+        return -1;
     }
     while (head->next->next != NULL)
     {
         head = head->next;
     }
+    unsigned int tmp = head->next->value;
     delete head->next;
     head->next = NULL;
+    return tmp;
 }
